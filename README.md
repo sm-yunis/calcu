@@ -1,4 +1,4 @@
-A very simple command line calculator.
+##A very simple command line calculator.
 Takes two arguments, operates on them and prints the result.
 
 Output precision format is 2 decimal points.

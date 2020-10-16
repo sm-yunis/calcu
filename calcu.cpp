@@ -47,31 +47,31 @@ int main(int argc, char* argv[]) {
 			res = operation();
 			break;
 		case 2:
-			operation = [&argv]() -> auto{
+			operation = [argv]() -> auto{
 				return atof(argv[2]) - atof(argv[3]);
 			};
 			res = operation();
 			break;
 		case 3:
-			operation = [&argv]() -> auto{
+			operation = [argv]() -> auto{
 				return atof(argv[2]) * atof(argv[3]);
 			};
 			res = operation();
 			break;
 		case 4:
-			operation = [&argv]() -> auto{
+			operation = [argv]() -> auto{
 				return atof(argv[2]) / atof(argv[3]);
 			};
 			res = operation();
 			break;
 		case 5:
-			operation = [&argv]() -> auto{
+			operation = [argv]() -> auto{
 				return fmod(atof(argv[2]) , atof(argv[3]));
 			};
 			res = operation();
 			break;
 		case 6:
-			operation = [&argv]() -> auto{
+			operation = [argv]() -> auto{
 				return pow(atof(argv[2]) , atof(argv[3]));
 			};
 			res = operation();
